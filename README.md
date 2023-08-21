@@ -1,350 +1,105 @@
-Contribution: 2019-07-15 10:00
 
-Contribution: 2019-07-19 10:00
+<p align="center">🎈 This project is an open source blog built with Laravel and Vue.js. </p>
 
-Contribution: 2019-07-19 10:01
+# LV Blog
 
-Contribution: 2019-07-19 10:02
+This is a powerful blog, I try to build the blog more beautiful, more convenient. 
 
-Contribution: 2019-07-19 10:03
+`Laravel 5.*` and `Vuejs 2.*` combined with the establishment of a good response and quickly dashboard, the dashboard made through the `Vuejs` component development.
 
-Contribution: 2019-07-19 10:04
+I believe it will be better and better. If you are interested in this, you can join and enjoy it.
 
-Contribution: 2019-07-22 10:00
+## Basic Features
 
-Contribution: 2019-07-22 10:01
+- Manage users, articles, discussions and media
+- Statistical tables
+- Categorize articles
+- Label classification
+- Content moderation
+- Own comments system
+- Multi-language switching
+- Markdown Editor
+- Roles & Permissions
+- and more...
 
-Contribution: 2019-07-22 10:02
+## Server Requirements
 
-Contribution: 2019-07-22 10:03
+- PHP >= 7.2.5
+- Node >= 6.x
+- OpenSSL PHP Extension
+- PDO PHP Extension
+- Mbstring PHP Extension
+- Tokenizer PHP Extension
+- XML PHP Extension
 
-Contribution: 2019-07-22 10:04
+## Install
 
-Contribution: 2019-07-22 10:05
+### 1. Clone the source code or create new project.
 
-Contribution: 2019-07-22 10:06
+```shell
+git clone https://github.com/jcc/blog.git
+```
 
-Contribution: 2019-07-22 10:07
+OR
 
-Contribution: 2019-07-22 10:08
+```shell
+composer create-project jcc/blog
+```
 
-Contribution: 2019-07-22 10:09
+### 2. Set the basic config
 
-Contribution: 2019-07-22 10:10
+```shell
+cp .env.example .env
+```
 
-Contribution: 2019-07-22 10:11
+Edit the `.env` file and set the `database` and other config for the system after you copy the `.env`.example file.
 
-Contribution: 2019-07-23 10:00
+### 2. Install the extended package dependency.
 
-Contribution: 2019-07-23 10:01
+Install the `Laravel` extended repositories: 
 
-Contribution: 2019-07-23 10:02
+```shell
+composer install -vvv
+```
 
-Contribution: 2019-07-23 10:03
+Install the `Vuejs` extended repositories: 
 
-Contribution: 2019-07-24 10:00
+```shel
+npm install
+```
 
-Contribution: 2019-07-24 10:01
+Compile the js code: 
 
-Contribution: 2019-07-24 10:02
+```shel
+npm run dev
 
-Contribution: 2019-07-24 10:03
+// OR
 
-Contribution: 2019-07-24 10:04
+npm run watch
 
-Contribution: 2019-07-24 10:05
+// OR
 
-Contribution: 2019-07-25 10:00
+npm run production
+```
 
-Contribution: 2019-08-05 10:00
+### 3. Run the blog install command, the command will run the `migrate` command and generate test data.
 
-Contribution: 2019-08-05 10:01
+```shell
+php artisan blog:install
+```
 
-Contribution: 2019-08-05 10:02
+## Contributors
 
-Contribution: 2019-08-05 10:03
+- [ITSuperStar51](http://github.com/ITSuperStar51)
 
-Contribution: 2019-08-05 10:04
+## Thanks
 
-Contribution: 2019-08-05 10:05
+- [overtrue](https://github.com/overtrue)
+- [Laravist](https://www.laravist.com/)
 
-Contribution: 2019-08-05 10:06
 
-Contribution: 2019-08-05 10:07
+## License
 
-Contribution: 2019-08-06 10:00
+The project is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
-Contribution: 2019-08-15 10:00
-
-Contribution: 2019-08-15 10:01
-
-Contribution: 2019-08-15 10:02
-
-Contribution: 2019-08-15 10:03
-
-Contribution: 2019-08-16 10:00
-
-Contribution: 2019-08-16 10:01
-
-Contribution: 2019-08-16 10:02
-
-Contribution: 2019-08-16 10:03
-
-Contribution: 2019-08-16 10:04
-
-Contribution: 2019-08-16 10:05
-
-Contribution: 2019-08-22 10:00
-
-Contribution: 2019-08-22 10:01
-
-Contribution: 2019-08-22 10:02
-
-Contribution: 2019-08-22 10:03
-
-Contribution: 2019-08-22 10:04
-
-Contribution: 2019-08-22 10:05
-
-Contribution: 2019-08-22 10:06
-
-Contribution: 2019-08-22 10:07
-
-Contribution: 2019-08-22 10:08
-
-Contribution: 2019-08-22 10:09
-
-Contribution: 2019-08-22 10:10
-
-Contribution: 2019-08-22 10:11
-
-Contribution: 2019-08-23 10:00
-
-Contribution: 2019-08-23 10:01
-
-Contribution: 2019-08-23 10:02
-
-Contribution: 2019-08-23 10:03
-
-Contribution: 2019-08-23 10:04
-
-Contribution: 2019-08-23 10:05
-
-Contribution: 2019-08-23 10:06
-
-Contribution: 2019-08-23 10:07
-
-Contribution: 2019-08-29 10:00
-
-Contribution: 2019-08-29 10:01
-
-Contribution: 2019-08-29 10:02
-
-Contribution: 2019-08-29 10:03
-
-Contribution: 2019-08-29 10:04
-
-Contribution: 2019-08-29 10:05
-
-Contribution: 2019-08-29 10:06
-
-Contribution: 2019-08-29 10:07
-
-Contribution: 2019-08-29 10:08
-
-Contribution: 2019-09-02 10:00
-
-Contribution: 2019-09-02 10:01
-
-Contribution: 2019-09-02 10:02
-
-Contribution: 2019-09-02 10:03
-
-Contribution: 2019-09-02 10:04
-
-Contribution: 2019-09-02 10:05
-
-Contribution: 2019-09-02 10:06
-
-Contribution: 2019-09-02 10:07
-
-Contribution: 2019-09-02 10:08
-
-Contribution: 2019-09-02 10:09
-
-Contribution: 2019-09-02 10:10
-
-Contribution: 2019-09-06 10:00
-
-Contribution: 2019-09-06 10:01
-
-Contribution: 2019-09-06 10:02
-
-Contribution: 2019-09-06 10:03
-
-Contribution: 2019-09-06 10:04
-
-Contribution: 2019-09-06 10:05
-
-Contribution: 2019-09-06 10:06
-
-Contribution: 2019-09-06 10:07
-
-Contribution: 2019-09-06 10:08
-
-Contribution: 2019-09-10 10:00
-
-Contribution: 2019-09-10 10:01
-
-Contribution: 2019-09-11 10:00
-
-Contribution: 2019-09-12 10:00
-
-Contribution: 2019-09-12 10:01
-
-Contribution: 2019-09-12 10:02
-
-Contribution: 2019-09-13 10:00
-
-Contribution: 2019-09-13 10:01
-
-Contribution: 2019-09-13 10:02
-
-Contribution: 2019-09-13 10:03
-
-Contribution: 2019-09-13 10:04
-
-Contribution: 2019-09-13 10:05
-
-Contribution: 2019-09-13 10:06
-
-Contribution: 2019-09-13 10:07
-
-Contribution: 2019-09-13 10:08
-
-Contribution: 2019-09-13 10:09
-
-Contribution: 2019-09-16 10:00
-
-Contribution: 2019-09-16 10:01
-
-Contribution: 2019-09-16 10:02
-
-Contribution: 2019-09-16 10:03
-
-Contribution: 2019-09-16 10:04
-
-Contribution: 2019-09-16 10:05
-
-Contribution: 2019-09-16 10:06
-
-Contribution: 2019-09-16 10:07
-
-Contribution: 2019-09-16 10:08
-
-Contribution: 2019-09-16 10:09
-
-Contribution: 2019-09-16 10:10
-
-Contribution: 2019-09-16 10:11
-
-Contribution: 2019-09-18 10:00
-
-Contribution: 2019-09-18 10:01
-
-Contribution: 2019-09-18 10:02
-
-Contribution: 2019-09-18 10:03
-
-Contribution: 2019-09-20 10:00
-
-Contribution: 2019-09-20 10:01
-
-Contribution: 2019-09-20 10:02
-
-Contribution: 2019-09-20 10:03
-
-Contribution: 2019-09-20 10:04
-
-Contribution: 2019-09-20 10:05
-
-Contribution: 2019-09-20 10:06
-
-Contribution: 2019-09-23 10:00
-
-Contribution: 2019-09-23 10:01
-
-Contribution: 2019-09-23 10:02
-
-Contribution: 2019-09-24 10:00
-
-Contribution: 2019-09-24 10:01
-
-Contribution: 2019-09-24 10:02
-
-Contribution: 2019-09-24 10:03
-
-Contribution: 2019-09-24 10:04
-
-Contribution: 2019-09-24 10:05
-
-Contribution: 2019-09-24 10:06
-
-Contribution: 2019-09-26 10:00
-
-Contribution: 2019-09-26 10:01
-
-Contribution: 2019-09-27 10:00
-
-Contribution: 2019-09-27 10:01
-
-Contribution: 2019-09-27 10:02
-
-Contribution: 2019-09-27 10:03
-
-Contribution: 2019-10-01 10:00
-
-Contribution: 2019-10-01 10:01
-
-Contribution: 2019-10-02 10:00
-
-Contribution: 2019-10-02 10:01
-
-Contribution: 2019-10-03 10:00
-
-Contribution: 2019-10-03 10:01
-
-Contribution: 2019-10-03 10:02
-
-Contribution: 2019-10-03 10:03
-
-Contribution: 2019-10-03 10:04
-
-Contribution: 2019-10-03 10:05
-
-Contribution: 2019-10-08 10:00
-
-Contribution: 2019-10-08 10:01
-
-Contribution: 2019-10-08 10:02
-
-Contribution: 2019-10-08 10:03
-
-Contribution: 2019-10-08 10:04
-
-Contribution: 2019-10-08 10:05
-
-Contribution: 2019-10-08 10:06
-
-Contribution: 2019-10-08 10:07
-
-Contribution: 2019-10-08 10:08
-
-Contribution: 2019-10-09 10:00
-
-Contribution: 2019-10-09 10:01
-
-Contribution: 2019-10-09 10:02
-
-Contribution: 2019-10-09 10:03
-
+QQ Group: 272734386

@@ -1,0 +1,74 @@
+// Fonts
+$font-size-base: .9rem !default;
+$line-height-base: 1.7 !default;
+$line-height-lg: 1.7 !default;
+$line-height-sm: 1.7 !default;
+
+// Color
+$blue:    #007bff !default;
+$indigo:  #9B59B6 !default;
+$purple:  #8E44AD !default;
+$pink:    #e83e8c !default;
+$red:     #e74c3c !default;
+$orange:  #f39c12 !default;
+$yellow:  #F1C40F !default;
+$green:   #2ECC71 !default;
+$teal:    #1ABC9C !default;
+$cyan:    #3498db !default;
+$wet-asphalt:    #34495e !default;
+$black:   #000 !default;
+
+$component-active-bg: $wet-asphalt !default;
+
+// Shadow
+$box-shadow-sm:               0 .125rem .25rem rgba($black, .025) !default;
+$box-shadow:                  0 .25rem .5rem rgba($black, .05) !default;
+$box-shadow-lg:               0 .5rem 1.5rem rgba($black, .075) !default;
+
+// Toggle
+$rgb-black: "0,0,0" !default;
+$mdb-label-color: unquote("rgba(#{$rgb-black}, 0.26)") !default;
+$mdb-label-color-toggle-focus: unquote("rgba(#{$rgb-black}, .54)") !default;
+$mdb-toggle-label-color: $mdb-label-color !default;
+
+// Colors
+$default-color:  #52697f;
+
+$turquoise:      #1abc9c;
+$green-sea:      #16a085;
+
+$emerald:        #2ecc71;
+$nephritis:      #27ae60;
+
+$peter-river:    #3498db;
+$belize-hole:    #2980b9;
+
+$amethyst:       #9b59b6;
+$wisteria:       #8e44ad;
+
+$wet-asphalt:    #34495e;
+$midnight-blue:  #2c3e50;
+
+$sun-flower:     #f1c40f;
+$orange:         #f39c12;
+
+$carrot:         #e67e22;
+$pumpkin:        #d35400;
+
+$alizarin:       #e74c3c;
+$pomegranate:    #c0392b;
+
+$clouds:         #ecf0f1;
+$silver:         #bdc3c7;
+
+$concrete:       #95a5a6;
+$asbestos:       #7f8c8d;
+
+// Brands
+$brand-default:   $default-color;
+$brand-primary:   $wet-asphalt;
+$brand-secondary: $turquoise;
+$brand-info:      $peter-river;
+$brand-success:   $turquoise;
+$brand-warning:   $sun-flower;
+$brand-danger:    $alizarin;
